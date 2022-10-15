@@ -1,0 +1,24 @@
+.biggest{
+    
+    width: 263px;
+    height: 280px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+   
+    padding-right: 45px;
+    padding-bottom: 50px;
+
+}
+@media screen and (max-width:400px){
+.biggest {
+    
+        width: 770px;
+        height: 600px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 40px;
+        padding-right: 45px;
+        padding-bottom: 100px;
+    
+}}

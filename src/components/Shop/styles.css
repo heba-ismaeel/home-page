@@ -1,0 +1,21 @@
+.sho{
+    opacity: 1;
+color: rgba(51,51,58,1);
+font-family: "VLNewParisHeadline";
+font-size: 42px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: center;
+line-height: 60px;
+}
+.bigdiv{
+    max-width: 100%;
+}
+@media screen and (max-width:400px) {
+.sho {
+    width: 1000px;
+   
+    font-size: 50px;
+   
+}}

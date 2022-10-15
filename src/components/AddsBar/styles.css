@@ -1,0 +1,19 @@
+.add-bar-container{
+    max-width: 100%;
+    background-color: black;
+    color:white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    @media screen and (max-width: 400px){
+ .add-bar-container{
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}

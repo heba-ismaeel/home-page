@@ -1,0 +1,76 @@
+.sub{
+    
+    opacity: 1;
+color: rgba(255,255,255,1);
+font-family: "VLNewParisHeadline";
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 30px;
+height: 30px;
+width:180px ;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+/* .foTright{
+   
+} */
+.icfoot{
+    opacity: 1;
+color: rgba(178,178,178, 1);
+
+    width: 24px;
+    height: 24px;
+    
+    padding: 20px 10px 0px 0px;
+}
+.inp{
+    margin: 0px 30px 0px 0px;
+    border: 1px solid rgba(102,102,102, 1);
+opacity: 1;
+background-color: rgba(51,51,58, 1);
+width: 360px; ;
+height: 40px; ;
+opacity: 1;
+color: rgba(222,222,222,1);
+font-family: "MuseoSansCyrl-500";
+font-size: 14px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 20px;
+text-transform: uppercase;
+}
+.leb{
+    opacity: 1;
+color: rgba(222,222,222,1);
+font-family: "MuseoSansCyrl-500";
+font-size: 14px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 0px;
+text-align: left;
+line-height: 20px;
+text-transform: uppercase;
+width: 330px;
+height: 40px;
+}
+
+.inbut{
+    cursor: pointer;
+    opacity: 1;
+color: rgba(51,51,58,1);
+font-family: "ProximaNova-Semibold";
+font-size: 12px;
+font-weight: 600;
+font-style: normal;
+letter-spacing: 2px;
+text-align: center;
+line-height: 20px;
+text-transform: uppercase;
+width: 166px; ;
+height: 40px;
+}
