@@ -74,3 +74,16 @@ text-transform: uppercase;
 width: 166px; ;
 height: 40px;
 }
+@media screen and (max-width:400px){
+.sub{width: 250px;
+font-size: 16px;}
+.inp{
+    width: 100px;
+    font-size: 11px;
+}
+.inbut{
+    width: 120px;
+    font-size: 11px;
+}
+}
+

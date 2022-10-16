@@ -27,3 +27,13 @@ margin-bottom: 40px;
 width: 209px;
 height: 25px;
 }
+@media screen and (max-width:400px){
+    .bigfoot{
+        width: 300px;
+    }
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}

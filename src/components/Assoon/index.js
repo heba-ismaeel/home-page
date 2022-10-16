@@ -8,8 +8,8 @@ const Assoon= () => {
        <p className="aspr">As Seen On</p>
     
 <div className="ic">
-
-<img src='assests\images\07cd3f1fa1b05fc98036589db10782d230e394f7.png'  ></img>
+<center>
+<img src='assests\images\07cd3f1fa1b05fc98036589db10782d230e394f7.png'   className="icpic"></img></center>
 
 </div></div>
   

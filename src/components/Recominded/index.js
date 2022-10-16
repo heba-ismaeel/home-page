@@ -10,7 +10,7 @@ const Recominded= () => {
     <center>
     <div className="biggdiv">
 
- <div className="rec"> Recommended Videos</div>
+ <div className="recem"> Recommended Videos</div>
  <div  >
 <Vedio/>
  </div>

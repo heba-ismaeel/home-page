@@ -27,11 +27,13 @@ line-height: 60px;
     
 
 .mater {
-    width: 800px;
+    width: 280px;
+    grid-template-columns: 1fr;
    
 }
 .about{
-    width: 800px;
+    width: 250px;
+    font-size: 28px;
 }
 .big {
     padding-bottom: 60px;

@@ -41,6 +41,10 @@ text-align: center;
 line-height: 20px;
 text-transform: uppercase;
 }
+.imgper{
+    width: 100%;
+    height: 600px;
+}
 @media screen and (max-width: 400px){
     .pr-contant {
         position: relative;
@@ -50,40 +54,39 @@ text-transform: uppercase;
         background-size: 100%;
         width: 100%;
     }
-    .per {
-        width: 500px;
-       
-        max-width: 60%;
-        top: 150px;
-        left: 650px;
-        position: absolute;
-        opacity: 1;
-        color: rgba(255,255,255,1);
-        font-family: "VLNewParisHeadline";
-        font-size: 40px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0px;
-        text-align: left;
-        line-height: 60px;
+    
+        .per {
+            width: 100px;
+           
+            top: 200px;
+            left: 200px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+ 
+    
+        .shop {
+            width: 150px;
+            margin: 3px;
+            top: 270px;
+            left: 160px;
+        
+            position: absolute;
+            opacity: 1;
+            color: rgba(255,255,255,1);
+            font-family: "ProximaNova-Bold";
+            font-size: 10px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: 2px;
+            text-align: center;
+            line-height: 20px;
+            text-transform: uppercase;
+        
     }
-    .shop {
-        width: 500px;
-        margin: 3px;
-        top: 350px;
-        left: 500px;
-       
-        position: absolute;
-        opacity: 1;
-        color: rgba(255,255,255,1);
-        font-family: "ProximaNova-Bold";
-        font-size: 24px;
-        font-weight: 900;
-        font-style: normal;
-        letter-spacing: 2px;
-        text-align: center;
-        line-height: 20px;
-        text-transform: uppercase;
+    .imgper{
+        width: 270px;
+        height: 400px;
     }
  
 }

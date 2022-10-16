@@ -6,11 +6,11 @@ const PIC = () => {
   return (
     <>
  <div className="cc">
- <div className="shphoto">
+ <div className="shphoto"><p className="shopar"> Pants</p>
  <img src='assests\images\c3d74b651e3f521439ae7e68750fa01c13171c98.png' 
  className="shosrc"    alt='perfume' ></img>
         
-        <p className="shopar"> Pants</p>
+        
     </div>  
 
     <div className="shphoto">

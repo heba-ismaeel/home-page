@@ -27,3 +27,25 @@ height:60px ;
     width: 964px; ;
     height:43px ;
 }
+@media screen and (max-width:400px) {
+    .as{
+        width: 250px ;
+        padding: 5px;
+    }
+    .aspr{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    
+    }
+    .icpic{
+       
+            width: 300px;
+            height: 40px;
+        
+
+    }
+    .ic{width: 300px;
+        height: 10px;
+        margin-bottom: 50px;}
+}

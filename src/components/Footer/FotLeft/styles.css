@@ -71,4 +71,8 @@ line-height: 25px;
 padding-top: 19px;
 height: 100px ;
 
-}
+}@media screen and (max-width:400px){
+.fotleft {
+   
+    grid-template-columns: 1fr;
+}}

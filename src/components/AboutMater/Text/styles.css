@@ -90,25 +90,26 @@ text-align: left;
 line-height: 30px;
 }
 @media screen and (max-width:400px) {
-    .pfir{
-        font-size: 23px;
-       
+    
+        pfir {
+            font-size: 18px;
             font-weight: 500;
             font-style: normal;
-            letter-spacing: 1px;
+            letter-spacing: 0px;
             text-align: left;
             line-height: 30px;
+        }
         
-    }
+    
     .p2{
   
-    font-size: 17px;}
+    font-size: 12px;}
     .p3{
-        font-size: 23px;  
+        font-size: 28px;  
     }
-    .p4{ font-size: 17px;}
-    .p5{font-size: 23px; }
-    .p6{font-size: 17px;}
-    .p7{font-size: 23px;}
+    .p4{ font-size: 12px;}
+    .p5{font-size: 18px; }
+    .p6{font-size: 12px;}
+    .p7{font-size: 18px;}
     
 }

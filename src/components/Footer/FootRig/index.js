@@ -4,6 +4,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 const FootRig= () => {
     return (
       <>
+      <center>
  <div className="foTright">
 <div className="sub">Subscribe to newsletter</div> <br></br>
 <div>
@@ -16,7 +17,7 @@ const FootRig= () => {
 <MdFacebook className="icfoot"/>
 <AiFillTwitterCircle className="icfoot"/></div>
  </div>
-      </>
+     </center> </>
     );
   };
   
