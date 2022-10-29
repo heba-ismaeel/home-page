@@ -1,9 +1,8 @@
 import "./App.css";
 import React from "react";
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 import AddsBar from "./components/AddsBar";
 import Header from "./components/Header";
-import Featured from "./components/Featured";
 import Perfume  from"./components/Perfume";
 
 import AboutMater from"./components/AboutMater";
@@ -12,16 +11,24 @@ import Shop from "./components/Shop";
 import Recominded from "./components/Recominded";
 import Assoon from "./components/Assoon";
 import Footer from "./components/Footer";
+import  Features from "./components/Features";
 
-const App = () => {
+
+
+  function App() {
+ 
   return (
     
     <>
+
     <AddsBar />
     
     <Header />
-    <Perfume/> 
-   <Featured />
+    <Perfume/>
+ <Features/>
+ 
+ 
+  
    
    <AboutMater/>
    <Explore/><br></br>

@@ -1,0 +1,32 @@
+
+
+.imgleft{
+    width:12%;
+}
+
+.imgleft .button{
+    /* width: 68px;
+    height: 68px; */
+    margin-bottom: 20px;
+    border: none;
+    width: 100%;
+}
+.button:hover{
+    border: 2px solid orangered;
+}
+.innerImg{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .imgleft{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: auto;
+    }
+    .imgleft img{
+        width: 15%;
+
+    }
+
+}

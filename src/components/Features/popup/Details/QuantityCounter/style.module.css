@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.btnWrapper {
+  display: flex;
+  border: 1px solid gray;
+  width: 20%;
+  box-sizing: border-box;
+  height: 5%;
+}
+.btn {
+  width: 33.3%;
+  padding: 8px 8px;
+  border: none;
+  box-sizing: border-box;
+}
+.btn2 {
+  width: 33.3%;
+  padding: 8px 8px;
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.btn:hover {
+  background-color: orangered;
+  text-decoration: solid;
+  color: white;
+}
+.add,
+.add2 {
+  width: 30%;
+}
+.addcart {
+  background-color: #33333a;
+  color: white;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  border: none;
+  line-height: 1.667;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.addcart:hover {
+  opacity: 0.7;
+}
+.wishlist {
+  padding: 8px 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid #33333a;
+}
+.wishlist:hover {
+  background-color: #33333a;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1100px) {
+  .add,
+  .add2 {
+    /* width:40% ; */
+    border: 1px solid orange;
+  }
+}
