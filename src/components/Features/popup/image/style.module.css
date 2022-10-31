@@ -1,32 +1,52 @@
 
-
 .imgleft{
     width:12%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .imgleft .button{
-    /* width: 68px;
-    height: 68px; */
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+div img{
     margin-bottom: 20px;
-    border: none;
     width: 100%;
+
 }
-.button:hover{
-    border: 2px solid orangered;
+.border{
+    border:4px solid orangered;
+  
 }
+
 .innerImg{
+    margin-bottom: 20px;
     width: 100%;
 }
+.pointer {cursor: pointer;}
+.imgright {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .imgright img {
+    width: 100%;
+  }
 @media screen and (max-width:768px) {
     .imgleft{
+        width:80%;
         display: flex;
-        justify-content: space-between;
-        width: 70%;
-        margin: auto;
+        flex-direction: row;
+        margin-left: 30px;
     }
-    .imgleft img{
-        width: 15%;
-
+    div img{
+        margin-bottom:30px;
+        width: 100%;
+    
     }
 
+   
+ 
 }
