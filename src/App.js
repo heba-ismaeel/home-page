@@ -12,6 +12,11 @@ import Recominded from "./components/Recominded";
 import Assoon from "./components/Assoon";
 import Footer from "./components/Footer";
 import  Features from "./components/Features";
+import Shoppage from "./components/Shoppage";
+import FeatureList from "./views/FeatureList";
+import Router from "./router";
+import SortFeature from "./components/Testt";
+// import Router from "./router";
 
 
 
@@ -20,23 +25,23 @@ import  Features from "./components/Features";
   return (
     
     <>
-
-    <AddsBar />
-    
-    <Header />
-    <Perfume/>
- <Features/>
- 
- 
+    <Router/>
+    {/* <FeatureList/> */}
   
-   
+    {/* <AddsBar />
+    <Header />
+     <Perfume/>
+ <Features/>
    <AboutMater/>
    <Explore/><br></br>
   <Shop/>
   <Recominded/>
   <Assoon/>
-  <Footer/>
-    </>
+  <Footer/>*/}
+  {/* <Shoppage/>  */}
+  {/* <SortFeature/> */}
+  {/* <FeatureList/> */}
+  </>
   );
 };
 

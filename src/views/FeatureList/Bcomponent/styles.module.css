@@ -1,0 +1,9 @@
+.bcomponent{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap:20%
+}
+.fea{
+    width: 60%;
+}
