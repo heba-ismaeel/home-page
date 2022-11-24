@@ -2,7 +2,8 @@ import axios from 'axios';
 import React ,{useState , useEffect}from 'react';
 import Features from '../../../components/Features';
 import BLeft from './BLeft';
-import styles from './styles.module.css'
+import style from './style.module.css';
+
 
 
 function Bcomponent() {
@@ -24,15 +25,17 @@ useEffect(() => {
  filtter &&filtter.map((item)=>categories.add(item.category));
  console.log(categories);
 
-const allcategories = {...categories};
-console.log(allcategories);
+const allcategories = [...categories];
+console.log("hiiiiiiiiiiiiii" +allcategories);
   return (
     <>
-    <div className={styles.bcomponent}>
-<BLeft />
-{/*filtter={categories} كانت فوق بين الاقواس  */}
-<Features  className={styles.fea}/>
-   </div>
+    <div className={style.bcomponent}>
+
+<BLeft  className={style.left}   data={allcategories}/>
+<Features  className={style.fea}/>
+
+        </div>
+   
   </> )
 }
 
