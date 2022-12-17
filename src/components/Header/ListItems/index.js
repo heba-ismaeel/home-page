@@ -10,7 +10,7 @@ const ListItems = () => {
       <p className="mat">matter</p>
       {menuItems.map((item) => (
         <div className="itm">
-          <p className="itmn">{item}</p>
+          <p className="itmn">{item}  </p>
           <p className="down"><MdKeyboardArrowDown/></p>
           </div>
       ))}

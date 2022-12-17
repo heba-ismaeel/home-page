@@ -4,8 +4,11 @@ import Image from "./image";
 import style from "./style.module.css";
 import Details from "./Details";
 import data from "../data.json";
+import { useShoppingCart } from "../../../Context/ShoppingCardContext";
 
-export const PopUp = ({ modalIsOpen, updatePopUp ,product}) => {
+export const PopUp = ({ modalIsOpen, updatePopUp ,product,id}) => {
+  const {getItemQuantity,increaseCartQuantity,decreaseCartQuantity}=useShoppingCart();
+  const quantity=getItemQuantity(id);
   const {title,price,images,thumbnail,rating}=product
   const [rightImage, setRightImage]=useState({thumbnail})
   

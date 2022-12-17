@@ -2,7 +2,7 @@ import "./styles.css";
 import ListItems from "./ListItems";
 import {AiOutlineHeart  } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
-
+import Login from "./Login";
 
 import {AiOutlineShopping } from "react-icons/ai";
 const Header = () => {
@@ -12,7 +12,12 @@ const Header = () => {
       <ListItems />
 
       <div className="right">
-        <p className="listbtn"> <a href="#login"  > login</a></p>
+        {/* <p> */}
+          <Login/> 
+          {/* </p>  */}
+        {/* <p className="listbtn">  */}
+        {/* <button > login</button> */}
+        {/* </p> */}
      <AiOutlineSearch className="icon1"/> 
       <AiOutlineHeart className="icon2"/>
      

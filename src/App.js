@@ -1,48 +1,48 @@
-import "./App.css";
-import React from "react";
-// import { FaBeer } from 'react-icons/fa';
-import AddsBar from "./components/AddsBar";
-import Header from "./components/Header";
-import Perfume  from"./components/Perfume";
-
-import AboutMater from"./components/AboutMater";
-import Explore from "./components/Explore";
-import Shop from "./components/Shop";
-import Recominded from "./components/Recominded";
-import Assoon from "./components/Assoon";
-import Footer from "./components/Footer";
-import  Features from "./components/Features";
-import Shoppage from "./components/Shoppage";
-import FeatureList from "./views/FeatureList";
+// import React from "react";
 import Router from "./router";
-import SortFeature from "./components/Testt";
-// import Router from "./router";
-
-
-
+import ShoppingCardProvider from "./Context/ShoppingCardContext";
+import axios from "axios";
+import React, { useState, useEffect, createContext } from "react";
+export const ProductsContext = createContext(null);
   function App() {
- 
+
+    const url = "https://fakestoreapi.com/products";
+
+    const [products, setProducts] = useState(null);
+    useEffect(() => {
+      axios.get(url).then((response) => {
+        setProducts(response.data);
+        console.log(products);
+
+      });
+    }, [url]);
+
+    
+    if(products){
+      // console.log(products);
+
+  //     return(
+  //       <>
+  //       <ProductsContext.Provider value={products}>
+  //    <Router/>
+  //  </ProductsContext.Provider>
+  //     </>)
+  //   }
+  //   return(
+  //     <div><h1>njbgkjjhgh</h1></div>
+  //   )
+
   return (
     
     <>
-    <Router/>
-    {/* <FeatureList/> */}
-  
-    {/* <AddsBar />
-    <Header />
-     <Perfume/>
- <Features/>
-   <AboutMater/>
-   <Explore/><br></br>
-  <Shop/>
-  <Recominded/>
-  <Assoon/>
-  <Footer/>*/}
-  {/* <Shoppage/>  */}
-  {/* <SortFeature/> */}
-  {/* <FeatureList/> */}
+    <ShoppingCardProvider>
+    <ProductsContext.Provider value={products}>
+     <Router/>
+   </ProductsContext.Provider>
+   </ShoppingCardProvider>
+    
   </>
   );
-};
+};}
 
 export default App;

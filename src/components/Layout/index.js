@@ -10,8 +10,9 @@ const Layout
  = () => {
   return (
     <>
-    <Header/>
     <AddsBar />
+    <Header/>
+    
     <Outlet/>
    
     <Footer/>

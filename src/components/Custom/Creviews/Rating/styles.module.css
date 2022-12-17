@@ -1,0 +1,40 @@
+.rate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1.5vw;
+    width: 80%;
+  
+  }
+.rating{
+    opacity: 1;
+    color: rgba(102,102,102,1);
+    font-family: "ProximaNova-Light";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: justified;
+    line-height: 20px;}
+    .rating a,
+    .rating label {
+      padding: 3px;
+      float:right;
+      color: #aaa;
+      text-decoration: none;
+      -webkit-transition: color .4s;
+      -moz-transition: color .4s;
+      -o-transition: color .4s;
+      transition: color .4s;
+    }
+    .rating label:hover ~ label,
+    .rating input:focus ~ label,
+    .rating label:hover,
+    .rating a:hover,
+    .rating a:hover ~ a,
+    .rating a:focus,
+    .rating a:focus ~ a		{
+      color: orange;
+      cursor: pointer;
+      
+    }
