@@ -21,9 +21,9 @@ const QuantityCounter = ({id}) => {
     <>
     <div className={style.container}>
       <div className={style.btnWrapper}>
-          <button onClick={handleDecrement}  className={style.btn} onClick={()=>decreaseCartQuantity(id)}>-</button>
+          <button Click={handleDecrement}  className={style.btn} onClick={()=>decreaseCartQuantity(id)}>-</button>
           <i className={style.btn2} style={{backgroundColor: "white"}}>{counter}</i>
-          <button onClick={handleIncrement }  onClick={()=>decreaseCartQuantity(id)} className={style.btn}>+</button>
+          <button hadelClick={handleIncrement }  onClick={()=>decreaseCartQuantity(id)} className={style.btn}>+</button>
       </div> 
    
 

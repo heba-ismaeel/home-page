@@ -4,8 +4,8 @@ import "./styles.css";
 const RecBut = () => {
   return (
     <>
-    <center>
-< button  className="Recb">Show more</button></center>
+    <div className="recbudiv">
+< button  className="Recb">Show more</button></div>
   
    </>
   );

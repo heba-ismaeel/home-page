@@ -11,13 +11,13 @@ const Explore = () => {
     <div className='big3'>
     <div className="pex">Explore</div>
     <div className='contae'>
-     <div> <Left/></div>
-    <div><Center/></div>
-    <div><Right/></div> 
+      <Left/>
+    <Center/>
+    <Right/> 
     
     </div>
    
-   <div><BUTON/></div> 
+   <BUTON/>
   </div></>);
 };
 

@@ -12,9 +12,9 @@ line-height: 60px;
 .bigdiv{
     max-width: 100%;
 }
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
 .sho {
     width: 350px;
     font-size: 28px;
    
-}}
+}} */

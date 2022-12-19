@@ -1,17 +1,15 @@
 import React from 'react';
 import AddsBar from '../AddsBar';
-import Footer from '../Footer';
-// import Home from '../../views/Home';
-import Header from '../Header';
-import Assoon from '../Assoon';
 import { Outlet } from 'react-router-dom';
+import ResponsiveAppBar from '../Navpar';
+import Footer from '../Ffotertrue';
 
 const Layout
  = () => {
   return (
     <>
     <AddsBar />
-    <Header/>
+    <ResponsiveAppBar/>
     
     <Outlet/>
    

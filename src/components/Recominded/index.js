@@ -7,16 +7,17 @@ const Recominded= () => {
   return (
     
     <>
-    <center>
+    
     <div className="biggdiv">
 
  <div className="recem"> Recommended Videos</div>
- <div  >
+
 <Vedio/>
- </div>
- <center> <RecBut/></center>
+
+ <RecBut/>
  
-   </div></center></>
+   </div>
+   </>
   );
 };
 

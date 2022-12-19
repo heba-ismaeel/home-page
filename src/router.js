@@ -13,7 +13,8 @@ import Test1 from './components/Testt/Test';
 import {useState,useEffect} from 'react';
 // import ListingProduct from './components/ListingProduct';
 // import LOgin from './components/Llogin';
-import Llogin from './Llogin';
+import Navpar from './Navpar';
+import Footer from './components/Ffotertrue';
 
 import axios from 'axios';
 
@@ -43,8 +44,7 @@ const Router = () => {
 <Route path="Features" element={<Features1/>} />  
 <Route path='SortFeature' element={<Test1 />}/>
  <Route path='Explore' element={<Explore1/>}/> 
- <Route path='Customer' element={<Customer/>}/> 
- <Route path='login' element={<Llogin/>}/> 
+ <Route path='Customer' element={<Customer/>}/>  
 
 </Route>
 

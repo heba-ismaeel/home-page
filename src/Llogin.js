@@ -7,4 +7,4 @@ const Llogin = () => {
   )
 }
 
-export default Llogin
+export default Llogin;

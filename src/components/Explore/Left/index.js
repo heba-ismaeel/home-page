@@ -17,7 +17,7 @@ const Left = () => {
   : Connected Threads Asia, PeyaR, and Swagalls. </p></div>
  
     </div>
-    <div className="bottom">
+    <div >
     
     <img  className='picc'  src='assests\images\c7663a357d9244c46a1e6fa3c99a91133043df2c.png' alt='perfume' >
 

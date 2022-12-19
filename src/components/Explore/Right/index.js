@@ -5,11 +5,8 @@ const Right = () => {
   return (
     <>
   <div className="bigger">
-    <div> <Top/>
-    </div>
-    <div> <Bottom/>
-    </div>
-  
+    <Top/>
+   <Bottom/>
   </div>
    </>
   );

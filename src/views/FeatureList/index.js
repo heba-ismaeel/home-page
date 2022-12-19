@@ -1,10 +1,6 @@
 import React from 'react';
-import AddsBar from "../../components/AddsBar";
-import Header from "../../components/Header";
 import Panner from './Panner';
-import Sort from './Sort';
 import Loading from './Loading';
-import Footer from '../../components/Footer';
 import Bcomponent from './Bcomponent';
 import SortFeature from '../../components/Testt';
 

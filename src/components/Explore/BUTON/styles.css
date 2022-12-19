@@ -10,29 +10,11 @@ text-align: center;
 line-height: 20px;
 text-transform: uppercase;
 background-color: black;
-
-/* top:750px;
-left: 3320px; */
-width: 135.33px;
-height: 40px;
+padding: 2%;
+    margin-bottom: 3%;
 }
-@media screen and (max-width:400px) {
-    
-        .but {
-            opacity: 1;
-            color: rgba(255,255,255,1);
-            font-family: "ProximaNova-Bold";
-            font-size: 12px;
-            font-weight: 900;
-            font-style: normal;
-            letter-spacing: 4px;
-            text-align: center;
-            line-height: 20px;
-            text-transform: uppercase;
-            background-color: black;
-            width: 150px;
-            height: 40px;
-        
-    }
-    
+
+.contadiv{
+    display: flex;
+    justify-content: center;
 }

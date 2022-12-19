@@ -1,7 +1,8 @@
-.per{
+.per {
+    margin:2%;
     max-width: 100%;
-    top: 173px;
-    left: 833px;
+    top: 30%;
+    left: 50%;
     position: absolute;
     opacity: 1;
     color: rgba(255,255,255,1);
@@ -11,7 +12,8 @@
     font-style: normal;
     letter-spacing: 0px;
     text-align: left;
-    line-height: 80px;}
+    line-height: 80px;
+}
     .imgsr{
         max-width: 100%;
     }
@@ -20,32 +22,34 @@
     height: 600px;
     opacity: 1;
 background-size: 100%;
-width: 100%;}
-
-.aa{color: aliceblue;margin: 10px;border: 10px; padding: 10px;
+width: 100%;
 }
 
-.shop{
-    margin: 3px;
-    top: 350px;
-    left: 832px;
+.aa{
+    color: aliceblue;
+}
+
+.shop {
+    margin: 1%;
+    top: 60%;
+    left: 60%;
     position: absolute;
     opacity: 1;
-color: rgba(255,255,255,1);
-font-family: "ProximaNova-Bold";
-font-size: 12px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: 2px;
-text-align: center;
-line-height: 20px;
-text-transform: uppercase;
+    color: rgba(255,255,255,1);
+    font-family: "ProximaNova-Bold";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 .imgper{
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     .pr-contant {
         position: relative;
         margin: 0px 0px 0px 0px;
@@ -89,4 +93,4 @@ text-transform: uppercase;
         height: 400px;
     }
  
-}
+} */

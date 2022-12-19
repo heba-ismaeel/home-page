@@ -5,10 +5,9 @@ const Center = () => {
   return (
     <>
   <div className="biggest">
-    <div> <Top/>
-    </div>
-    <div> <Bottom/>
-    </div>
+     <Top/>
+     <Bottom/>
+    
   
   </div>
    </>
