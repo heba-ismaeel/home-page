@@ -1,87 +1,43 @@
-/* .recphoto{
+.RecVideosContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+}
+
+.video {
+    max-width: 361px;
+    max-height: 240px;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.videoImg {
+    /* width: 100%;
+    max-height: 240px;
+    max-width: 361px; */
+    margin-bottom: 3.5%;
+    text-align: center;
+    height:75%;
+}
+
+
+.playIcon {
+    color: white;
     background-color: white;
-    position: relative;
-}
- 
-.vv{
-    display: flex;
-     gap: 3%;
-    padding: 3%;
-}
-.ved{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 7% 13%;
-    height: 90px;
-    width: 90px;
-    color: white;
+    font-size: 65px;
     position: absolute;
-}
-
-
-.recsrc{
-
-    opacity: 1;
-background-size: 100%;
-width: 361px;
-height: 240px;}
-
- 
-  
-.recpar{
-    opacity: 1;
-color: rgba(51,51,58,1);
-font-family: "VLNewParisHeadline";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: 0px;
-text-align: left;
-line-height: 25px;
-
-    padding: 25px 20px 20px 20px ;
-} */
-.bigcont{
-    opacity: 1;
-background-color: rgba(252,252,252, 1);
-display: flex;
-gap:3%;
-}
-.container{
-  /* display: flex;
-  flex-direction: column; */
-    background-color: rgba(255,255,255, 1);
-    margin: 3% 0%;
-
-
-}
-.img{
-    position: relative;
-
-
-}
-.icondiv{ 
-     position: absolute;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-     opacity: 1; 
-}
-.icon{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 7% 13%;
-    height: 90px;
-    width: 90px;
-    color: white; */
-    /* position: absolute; */
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
 
 }
 .par{
+    
+    
     opacity: 1;
     color: rgba(51,51,58,1);
     font-family: "VLNewParisHeadline";
@@ -91,12 +47,14 @@ gap:3%;
     letter-spacing: 0px;
     text-align: left;
     line-height: 25px;
-    padding: 2%;
-}
+    padding: 5%;
+    }
 
-@media screen and (max-width:800px){
-    .bigcont{
-        flex-direction: column;
+
+@media (max-width:850px) {
+   
+    .RecVideosContainer{
+flex-direction: column;
     }
 
 }
