@@ -13,7 +13,7 @@ function Bcomponent() {
     setfiltter(product.data);
 
 
-console.log(product.data);
+// console.log(product.data);
   }
 useEffect(() => {
   getData();
@@ -23,10 +23,10 @@ useEffect(() => {
 }, []);
   const categories=new Set();
  filtter &&filtter.map((item)=>categories.add(item.category));
- console.log(categories);
+//  console.log(categories);
 
 const allcategories = [...categories];
-console.log("hiiiiiiiiiiiiii" +allcategories);
+// console.log("hiiiiiiiiiiiiii" +allcategories);
   return (
     <>
     <div className={style.bcomponent}>

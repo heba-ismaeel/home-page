@@ -1,7 +1,5 @@
 import * as React from 'react';
 import styles from './styles.module.css';
-// import styles from './styles.module.css';
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,21 +8,31 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-// import AdbIcon from '@mui/icons-material/Adb';
 import {AiOutlineHeart  } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
 import {AiOutlineShopping } from "react-icons/ai";
 import { MdKeyboardArrowDown} from "react-icons/md";
-import Login from '../Login';
+import "bootstrap/dist/css/bootstrap.css";
+import Nav from "react-bootstrap/Nav";
+import { Link} from "react-router-dom";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { useCookies } from 'react-cookie'
+import UserProfile from '../NewUserProfile';
+
+
 
 
 const menuItems = ["shop" ,"fabric", "journal", "about"];
 const settings=[<AiOutlineSearch /> ,<AiOutlineHeart />,<AiOutlineShopping />]
 function ResponsiveAppBar() {
+  const[cookie , setCookie , removeToken]=useCookies();
+  
+  const logOut=()=>{
+    localStorage.removeItem("token");
+    removeToken("token") ;}
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -100,7 +108,7 @@ matter
             >
               {menuItems.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center" className={styles.pmenue}>{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -142,7 +150,38 @@ matter
               </>
             ))}
           </Box>
-          <Login/>
+          {/* <Login/> */}
+          
+          <Nav>
+            {"token" in cookie ?
+            <NavDropdown title={<UserProfile/>}>
+              <NavDropdown.Item onClick={logOut}>Log Out</NavDropdown.Item>
+            </NavDropdown> 
+             :<Link to="/Login" className={styles.loginLink}>
+                LOGIN
+              </Link>
+      }
+            </Nav>
+            <Nav>
+            {"token" in cookie ?
+            <NavDropdown title={<UserProfile/>}>
+              <NavDropdown.Item onClick={logOut}>Log Out</NavDropdown.Item>
+            </NavDropdown> 
+             :<Link to="/Login" className={styles.loginLink}>
+                LOGIN
+              </Link>
+      }
+            </Nav>
+            {/* <Nav>
+            {"token" in cookie ?
+            <NavDropdown title={<UserProfile/>}>
+              <NavDropdown.Item onClick={logOut}>Log Out</NavDropdown.Item>
+            </NavDropdown> 
+             :<Link to="/Login" className={styles.loginLink}>
+                LOGIN
+              </Link>
+      }
+            </Nav> */}
         <Box sx={{ flexGrow: 0 }}>
           
       <div className={styles.rightdiv}>

@@ -60,4 +60,19 @@ background-color: gray;
     
 }
  } */
-
+ /* Developer5@gmail.com
+ 123456 */
+ .cc:hover .hover {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  width: 263px;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 80%;
+}

@@ -1,96 +1,96 @@
-.per {
-    margin:2%;
-    max-width: 100%;
-    top: 30%;
-    left: 50%;
-    position: absolute;
-    opacity: 1;
-    color: rgba(255,255,255,1);
-    font-family: "VLNewParisHeadline";
-    font-size: 60px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0px;
+/* next and perv colors */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #33333A;
+    margin: auto;
+}
+
+.carousel-control-prev {
+    width: 50px;
+    height: 90px;
+    border-radius: 0 150px 150px 0;
+    padding-right: 10px;
+}
+
+.carousel-control-next {
+    width: 50px;
+    height: 90px;
+    border-radius: 150px 0 0 150px;
+    padding-left: 10px;
+
+}
+
+/* Carousal Title And Button */
+.carouselsDes {
     text-align: left;
-    line-height: 80px;
-}
-    .imgsr{
-        max-width: 100%;
-    }
-.pr-contant{position: relative;
-    margin: 0px 0px 0px 0px;
-    height: 600px;
-    opacity: 1;
-background-size: 100%;
-width: 100%;
+    margin-left: 60%;
+    margin-bottom: 15%;
+    width: 60%;
 }
 
-.aa{
-    color: aliceblue;
+.sliderTitle {
+    font-size: 60px;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 8%;
+    color: white;
+    line-height: 1.3;
+    font-weight: 400;
 }
 
-.shop {
-    margin: 1%;
-    top: 60%;
-    left: 60%;
-    position: absolute;
-    opacity: 1;
-    color: rgba(255,255,255,1);
-    font-family: "ProximaNova-Bold";
+.sliderButton {
     font-size: 12px;
-    font-weight: 700;
-    font-style: normal;
+    text-decoration: none;
+    color: white;
     letter-spacing: 2px;
-    text-align: center;
-    line-height: 20px;
+    line-height: 1.66;
+    font-weight: 700;
+    padding-bottom: 2%;
+    border-bottom: 2px solid white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
     text-transform: uppercase;
 }
-.imgper{
-    width: 100%;
-    height: 100%;
+
+.sliderButton:hover {
+    color: #FF5E1B;
 }
-/* @media screen and (max-width: 400px){
-    .pr-contant {
-        position: relative;
-        margin: 0px 0px 0px 0px;
-        height: 600px;
-        opacity: 1;
-        background-size: 100%;
-        width: 100%;
+
+
+
+@media(max-width:1100px) {
+    .carouselsDes {
+        margin-bottom: 2%;
     }
-    
-        .per {
-            width: 100px;
-           
-            top: 200px;
-            left: 200px;
-            font-size: 14px;
-            line-height: 20px;
-        }
- 
-    
-        .shop {
-            width: 150px;
-            margin: 3px;
-            top: 270px;
-            left: 160px;
-        
-            position: absolute;
-            opacity: 1;
-            color: rgba(255,255,255,1);
-            font-family: "ProximaNova-Bold";
-            font-size: 10px;
-            font-weight: 900;
-            font-style: normal;
-            letter-spacing: 2px;
-            text-align: center;
-            line-height: 20px;
-            text-transform: uppercase;
-        
+
+    .sliderTitle {
+        font-size: 48px;
+        margin-bottom: 2%;
     }
-    .imgper{
-        width: 270px;
-        height: 400px;
+
+    .sliderButton {
+        font-size: 10px;
+        padding-bottom: 1%;
+
     }
- 
-} */
+
+}
+
+@media(max-width:850px) {
+    .carouselsDes {
+        margin-bottom: 0%;
+    }
+
+    .sliderTitle {
+        font-size: 20px;
+        margin-bottom: 0%;
+
+    }
+
+    .sliderButton {
+        font-size: 6px;
+        padding-bottom: 1%;
+    }
+
+}

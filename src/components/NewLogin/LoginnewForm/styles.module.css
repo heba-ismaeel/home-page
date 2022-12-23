@@ -1,0 +1,60 @@
+.LoginInput {
+    width: 100%;
+    height: 7vh;
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 2.8rem;
+    border: none;
+    border-bottom: 1px solid #473bff;
+    outline: none !important;
+
+}
+
+.formFiled {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ShowHideButton {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    margin-left: -2.76rem;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.LoginButton {
+    
+  
+        /* margin: 2rem; */
+        margin :5%;
+        padding :2%;
+        /* margin-bottom: 2rem; */
+        height: 8vh;
+        text-align: center;
+        background-color: #03a9f4;
+        width: 80%;
+        font-style: italic;
+        border: none;
+        color: white;
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        
+    }
+
+    a:link { text-decoration: none; }
+
+.LoginButton:hover {
+    background-color: white;
+    border: #473bff 1px solid;
+    color: #473bff;
+}
+.Error{
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 35px;
+}

@@ -19,18 +19,7 @@ export const ProductsContext = createContext(null);
 
     
     if(products){
-      // console.log(products);
-
-  //     return(
-  //       <>
-  //       <ProductsContext.Provider value={products}>
-  //    <Router/>
-  //  </ProductsContext.Provider>
-  //     </>)
-  //   }
-  //   return(
-  //     <div><h1>njbgkjjhgh</h1></div>
-  //   )
+     
 
   return (
     
